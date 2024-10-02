@@ -1,0 +1,36 @@
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JQuery Car-Race</title>
+  <link rel="stylesheet" href="car-race.css">
+</head>
+<body>
+
+  <h1>Robor Car Race</h1>
+  <input type="button" value="Race" id="go">
+  <input type="button" value="Reset" id="reset">
+
+  <div id="sandbox"></div>
+
+  <div id="racetrack">
+      <img src="images/Red-car-removebg-preview.png" class="car"  id="car1" alt="Red Car">
+      <img src="images/yellow-car-removebg-preview.png" class="car" id="car2" alt="yellow car">
+  </div>
+
+  <div id="sandbox2">
+    
+  </div>
+
+  <div id="raceInfoContainer" class="clearfix">
+    <h2>Results</h2>
+    <div id="raceInfo1" class="raceinfo">Car 1<span></span></div> 
+    <div id="raceInfo2" class="raceinfo">Car 2<span></span></div>
+  </div>
+
+   <!-- JQuery  -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <!-- Local JavaScript  -->
+    <script src="car-race.js"></script>
+</body>
+</html>

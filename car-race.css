@@ -1,0 +1,118 @@
+body{
+  text-align: center;
+  background: url(images/cracked\ sand.jpeg) center repeat;
+}
+
+button{
+  background: #933;
+  color: white;
+  padding:10px;
+  border: solid 2px black;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+form input{
+  display: inline-block;
+  margin: 10px 0;
+}
+
+
+#sandbox {
+  background: url(images/cracked\ sand.jpeg) center left repeat-x;
+  height: 80px;
+  position: relative;
+  top: 88px;
+}
+
+/* #birds{
+ background: url(images/bird.jpg) center no-repeat;
+  width: 11%;
+  height: 17%;
+  border: solid 1px #c19a6b;
+} */
+
+
+#sandbox2 {
+  background: url(images/cracked\ sand.jpeg) center left repeat-x;
+  height: 80px;
+  position: relative;
+  bottom: 88px;
+}
+
+
+#racetrack{
+  background: url(images/road.jpeg) center left repeat-x;
+  height: 330px;
+  border-right: dashed 7px green;
+  box-sizing: border-box;
+  /* margin: 5px 0; */
+}
+
+.car{
+  display: block;
+  position: relative; 
+  width:100px;
+  background: #4b4545;
+}
+
+#car1{top: 100px;}
+#car2{top: 130px;}
+
+#raceInfoContainer{
+  width: 70%;
+  margin:10px auto 0;
+  background: #333;
+  height: 200px; 
+  /* margin: 1px 15%; */
+  position: relative;
+  bottom: 190px;
+}
+
+h2{
+  color: white;
+  text-transform: uppercase;
+  border-bottom: solid 1px white;
+  padding: 20px 0;
+}
+
+.raceinfo{
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  width: 50%;
+  float: left;
+}
+
+.raceinfo span{
+  display: block;
+  font-weight: normal;
+  font-size: 12px;
+  color: white;
+}
+
+#raceinfo1{
+  color: #77b82f;
+}
+#raceinfo2{
+  color: #b82f3e;
+}
+
+input[type="button"]{
+  background: #77b72f;
+  color: white;
+  padding: 10px 20px;
+  border: solid 1px #444;
+  border-radius: 20px; 
+}
+
+input#reset{
+  background: #fc3;
+  color: #444;
+}
+
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
